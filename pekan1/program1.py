@@ -8,6 +8,6 @@ print("Hello World")
 print()
 print("program ini menghasilkan")
 print("empat baris output")
-print("/ \\ // \\\ ///")
-print("program ini" +" dibuat oleh a/n"
+print("/ \\\\ / \\\\ / \\\\ / \\\\ / ")
+print("program ini" +" dibuat oleh \n"
 + "Defran Naufalanski 2611532020" )
