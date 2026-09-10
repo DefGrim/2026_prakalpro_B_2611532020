@@ -8,7 +8,7 @@ alamat_2020 = """
    kec.pauh
    kota Padang
 """
-agama = "Islam"
+agama_2020 = "Islam"
 print("Nama saya adalah:", nama_2020)
 print("Jenis kelamin saya adalah:", jenis_kelamin_2020)
 print("Alamat saya adalah:", alamat_2020)
