@@ -46,13 +46,13 @@ jumlah_geser = int(input("\nMasukkan jumlah pergeseran bit: "))
 
 hasil = angka1_2020 << jumlah_geser
 print("\nBitwise geser kiri (<<)")
-print(angka1_2020, "<<", jummlah_geser, "=", hasil)
+print(angka1_2020, "<<", jumlah_geser, "=", hasil)
 print("Biner hasil =", bin(hasil))
 print("Biner hasil (8 bit) =", format(hasil, "08b"))
 
 # Bitwise geser kanan
 hasil = angka1_2020 >> jumlah_geser
 print("\nBitwise geser kiri (>>)")
-print(angka1_2020, ">>", jummlah_geser, "=", hasil)
+print(angka1_2020, ">>", jumlah_geser, "=", hasil)
 print("Biner hasil =", bin(hasil))
 print("Biner hasil (8 bit) =", format(hasil, "08b"))
