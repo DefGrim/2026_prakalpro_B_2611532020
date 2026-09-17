@@ -21,3 +21,26 @@ print("angka1_2020 < angka2_2020 =", hasil)
 hasil = angka1_2020 >= angka2_2020
 print("\nOperator lebih besar dari atau sama dengan")
 print("angka1_2020 >= angka2_2020 =", hasil)
+
+# Lebih kecil dari atau sama dengan
+hasil = angka1_2020 <= angka2_2020
+print("\nOperator lebih kecil dari atau sama dengan")
+print("angka1_2020 <= angka2_2020 =", hasil)
+
+# Sama dengan
+hasil = angka1_2020 == angka2_2020
+print("\nOperator sama dengan")
+print("angka1_2020 == angka2_2020 =", hasil)
+
+# Tidak sama dengan
+hasil = angka1_2020 != angka2_2020
+print("\nOperator tidak sama dengan")
+print("angka1_2020 != angka2_2020 =", hasil)
+
+# Tambahan: perbandingan berantai dalam Python
+hasil = 0 < angka1_2020 < 100
+print("\nOperator perbandingan berantai")
+print("0 < angka1_2020 < 100 =", hasil)
+
+hasil = 0 < angka2_2020 < 100
+print("0 < angka2_2020 < 100 =", hasil)
