@@ -20,7 +20,7 @@ print("angka1_2020 < angka2_2020 =", hasil)
 # Lebih besar dari atau sama dengan
 hasil = angka1_2020 >= angka2_2020
 print("\nOperator lebih besar dari atau sama dengan")
-print("angka1_2020 >= angka2_2020 =", hasil)
+print("angka1_2020 >= angka2_2020 =", hasil) 
 
 # Lebih kecil dari atau sama dengan
 hasil = angka1_2020 <= angka2_2020
