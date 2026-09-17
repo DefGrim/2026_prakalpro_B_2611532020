@@ -16,3 +16,29 @@ print("Hasil:", hasil)
 hasil = angka1_2020 - angka2_2020   
 print("\nOperator Pengurangan")
 print("Hasil:", hasil)
+
+# Perkalian
+hasil = angka1_2020 * angka2_2020
+print("\nOperator Perkalian")
+print("Hasil:", hasil)
+
+# Pembagian, pembagian bulat dan sisa bagi
+if angka2_2020 != 0:
+    hasil = angka1_2020 / angka2_2020
+    print("\nOperator Pembagian")
+    print("Hasil:", hasil)
+
+    hasil = angka1_2020 // angka2_2020
+    print("\nOperator Pembagian Bulat")
+    print("Hasil:", hasil)
+
+    hasil = angka1_2020 % angka2_2020
+    print("\nOperator Sisa Bagi")
+    print("Hasil:", hasil)
+else:
+    print("Angka kedua tidak boleh bernilai 0.")
+
+# Pangkat
+hasil = angka1_2020 ** angka2_2020
+print("\nOperator Pangkat")
+print("Hasil:", hasil)
