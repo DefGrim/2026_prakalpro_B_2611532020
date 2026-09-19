@@ -14,45 +14,45 @@ print("angka1_2020 =", angka1_2020, "| biner =", bin(angka1_2020))
 print("angka2_2020 =", angka2_2020, "| biner =", bin(angka2_2020))
 
 # Bitwise AND
-hasil = angka1_2020 & angka2_2020
+hasil_2020 = angka1_2020 & angka2_2020
 print("\nBitwise AND (&)")
-print(angka1_2020, "&", angka2_2020, "=", hasil)
-print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit) =", format(hasil, "08b"))
+print(angka1_2020, "&", angka2_2020, "=", hasil_2020)
+print("Biner hasil =", bin(hasil_2020))
+print("Biner hasil (8 bit) =", format(hasil_2020, "08b"))
 
 # Bitwise Or
-hasil = angka1_2020 | angka2_2020
+hasil_2020 = angka1_2020 | angka2_2020
 print("\nBitwise OR (|)")
-print(angka1_2020, "|", angka2_2020, "=", hasil)
-print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit) =", format(hasil, "08b"))
+print(angka1_2020, "|", angka2_2020, "=", hasil_2020)
+print("Biner hasil =", bin(hasil_2020))
+print("Biner hasil (8 bit) =", format(hasil_2020, "08b"))
 
 # Bitwise XOR
-hasil = angka1_2020 ^ angka2_2020
+hasil_2020 = angka1_2020 ^ angka2_2020
 print("\nBitwise XOR (^)")
-print(angka1_2020, "^", angka2_2020, "=", hasil)
-print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit) =", format(hasil, "08b"))
+print(angka1_2020, "^", angka2_2020, "=", hasil_2020)
+print("Biner hasil =", bin(hasil_2020))
+print("Biner hasil (8 bit) =", format(hasil_2020, "08b"))
 
 # Bitwise NOT
-hasil = ~angka1_2020
+hasil_2020 = ~angka1_2020
 print("\nBitwise NOT (~)")
-print("~", angka1_2020, "=", hasil)
-print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit) =", format(hasil, "08b"))
+print("~", angka1_2020, "=", hasil_2020)
+print("Biner hasil =", bin(hasil_2020))
+print("Biner hasil (8 bit) =", format(hasil_2020, "08b"))
 
 # Bitwise geser kiri
-jumlah_geser = int(input("\nMasukkan jumlah pergeseran bit: "))
+jumlah_geser_2020 = int(input("\nMasukkan jumlah pergeseran bit: "))
 
-hasil = angka1_2020 << jumlah_geser
+hasil_2020 = angka1_2020 << jumlah_geser_2020
 print("\nBitwise geser kiri (<<)")
-print(angka1_2020, "<<", jumlah_geser, "=", hasil)
-print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit) =", format(hasil, "08b"))
+print(angka1_2020, "<<", jumlah_geser_2020, "=", hasil_2020)
+print("Biner hasil =", bin(hasil_2020))
+print("Biner hasil (8 bit) =", format(hasil_2020, "08b"))
 
 # Bitwise geser kanan
-hasil = angka1_2020 >> jumlah_geser
+hasil_2020 = angka1_2020 >> jumlah_geser_2020
 print("\nBitwise geser kiri (>>)")
-print(angka1_2020, ">>", jumlah_geser, "=", hasil)
-print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit) =", format(hasil, "08b"))
+print(angka1_2020, ">>", jumlah_geser_2020, "=", hasil_2020)
+print("Biner hasil =", bin(hasil_2020))
+print("Biner hasil (8 bit) =", format(hasil_2020, "08b"))
