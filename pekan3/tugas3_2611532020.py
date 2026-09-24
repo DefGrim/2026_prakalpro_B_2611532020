@@ -97,7 +97,7 @@ print("Jumlah Barang >= 3   :", syarat_barang_2020)
 print("Status Member        :", status_member_2020)
 print("Kode Promo Tersedia  :", promo_tersedia_2020)
 print("Mendapatkan Diskon   :", diskon_member_2020)
-print("Mendapatkan Promo    :", promo_didapatkan_2020)
+print("Mendapatkan Promo    :", promo_didapatkan_2020) 
 
 
 print("\n=== HASIL PERHITUNGAN ===")
