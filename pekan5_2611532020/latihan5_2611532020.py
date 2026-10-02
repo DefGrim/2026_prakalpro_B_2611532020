@@ -7,6 +7,6 @@ for i_2020 in range(1, tinggi_2020 + 1):
     
     for j_2020 in range(i_2020):
         if j_2020 < (i_2020 - 1):
-            print("*", end="")
+            print("*", end=" ")
     
     print()
